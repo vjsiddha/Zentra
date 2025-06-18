@@ -1,19 +1,17 @@
 body {
   font-family: system-ui, sans-serif;
   background: #f6f8fa;
-  padding: 40px;
   text-align: center;
+  padding: 40px;
 }
-
 .container {
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   background: white;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-
 button {
   margin: 10px;
   padding: 12px 20px;
@@ -23,4 +21,22 @@ button {
   background-color: #0070f3;
   color: white;
   cursor: pointer;
+}
+button:hover {
+  background-color: #0059c1;
+}
+input[type="text"],
+input[type="number"] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+pre {
+  text-align: left;
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
 }

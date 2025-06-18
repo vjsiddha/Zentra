@@ -1,0 +1,15 @@
+{
+  "name": "zentra",
+  "version": "1.0.0",
+  "description": "Zentra is a web-based simulation platform that teaches users personal finance and investment decision-making through gamified scenarios.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
